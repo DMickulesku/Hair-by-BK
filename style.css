@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.header-container {
+  display: flex;
+  height: 15vh;
+  width: 100vl;
+  background-color: grey;
+}
+
+.nav-buttons-container {
+  display: flex;
+  width: 20vw;
+  height: 80vh;
+  float: right;
+  justify-content: center;
+  background-color: powderblue;
+}
+
+.nav-buttons-container-child {
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column; /* works with row or column */
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: space-around;
+}
+
+.footer-container {
+  display: flex;
+  height: 5vh;
+  width: 100vl;
+  background-color: grey;
+}

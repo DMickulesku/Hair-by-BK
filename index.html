@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hair by BK</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Hair by BK</h1>
+    </div>
+  </header>
+  <main>
+    <section>
+      <!-- <img src="week-5-images/Brook_BW.jpg" id="background_img" alt="Brook Black and White"> -->
+    </section>
+
+    <section>
+      <div class="nav-buttons-container">
+        <div class="nav-buttons-container-child">
+          <a href="#about_modal" class="btn waves-effect waves-green .modal-close">about</a>
+          <a href="#portfolio_modal" class="btn waves-effect waves-green">portfolio</a>
+          <a href="#services_modal" class="btn waves-effect waves-green">services</a>
+          <a href="#booking_modal" class="btn waves-effect waves-green">booking</a>
+          <a href="#location_modal" class="btn waves-effect waves-green">location</a>
+        </div>
+      </div>
+    </section>
+
+    <!--modals-->
+
+    <div id="about_modal" class="modal">
+      <div class="modal-content">
+        <h4>As a seasoned stylist,</h4>
+        <p>Brook loves all aspects of hair, especially color. In 2016, Brook began taking multiple Advanced Color Courses at the Wella Academy in New York pursuing a Master Colorist Certificate and most recently was also certified at Calligraphy Cutting.
+          She has also participated in multiple advanced education classes, including Vidal Sassoon Cutting, Wella color, Bumble and Bumble cutting and Oribe and Kerastase styling classes. Brook describes herself as kind of “quirky” but very laid back
+          and easy to talk to. Even though it doesn’t take much to inspire a stylist, Brook spends a lot of time following fashion blogs, magazines and pop culture. Her co-workers, friends and clients also inspire her. When not working, Brook loves trying
+          new restaurants, cooking, reading, music and fashion. If you are looking for a great new stylist who is sure to leave you feeling beautiful, Brook is your stylist!</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+
+    <div id="portfolio_modal" class="modal">
+      <div class="modal-content">
+        <h4>Portfolio</h4>
+        <p>Carousel Images Here</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+
+    <div id="services_modal" class="modal">
+      <div class="modal-content">
+        <h4>Service Price List</h4>
+        <ul>
+          <li>Womens Haircut- $75</li>
+          <li>Mens Haircut- $60</li>
+          <li>Blowout -$55</li>
+          <li>All Over Color- $95*</li>
+          <li>Partial Highlight- $105*</li>
+          <li>Full Highlight- $125*</li>
+          <li>Balyage- starting at $150*</li>
+          <li>Toner- $75*</li>
+          <li>Conditioning Treatment -$30</li>
+          <p>* all color prices are starting, and subject to change</p>
+
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+
+
+    <div id="booking_modal" class="modal">
+      <div class="modal-content">
+        <h4>Booking</h4>
+        <section>
+          <form id="form" class="clientInfo" action="" method="post">
+            <label for="firstName">First Name</label><br>
+            <input id="firstName" type="text" name="firstName" value="" placeholder="First Name" autofocus><br>
+
+            <label for="lastName">Last Name</label><br>
+            <input id="lastName" type="text" name="lastName" value="" placeholder="Last Name"><br>
+
+            <label for="phoneNumber">Phone Number</label><br>
+            <input id="phoneNumber" type="text" name="phoneNumber" value="" placeholder="Phone Number"><br>
+
+            <label for="email">Email</label><br>
+            <input id="email" type="email" name="email" value="" placeholder="Email"><br>
+
+            <label for="serviceRequested">Service Requested</label><br>
+            <input id="serviceRequested" type="text" name="serviceRequested" value="" placeholder="Service Requested"><br>
+
+            <button class="submitbtn" type="button" name="button">Submit</button>
+          </form>
+        </section>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+
+    <div id="location_modal" class="modal">
+      <div class="modal-content">
+        <h4>You can find me here</h4>
+        <p>Brook Escobedo</p><br>
+        <p>Elsewhere Salon</p><br>
+        <p>1201 SANTA FE DRIVE, UNIT B</p><br>
+        <p>DENVER, CO 80204</p>
+        <p>elsewherehairdenver.com</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>copyright 2017</p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
