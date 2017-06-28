@@ -19,10 +19,16 @@ $(function() {
     obj.email = email
     obj["services_requested"] = serviceRequested
 
+    var postObj = {}
+    postObj.name = name
+    postObj.email = email
+    postObj["phone_number"] = phoneNumber
+    postObj["services_requested"] = serviceRequested
+
     console.log(obj);
     emailjs.send("danmickulesku_gmail_com", "template_u36WH5zW", obj);
 
-    $.post("https://cors-anywhere.herokuapp.com/https://guarded-dawn-58914.herokuapp.com/api/v1/clients/", obj)
+    $.post("https://cors-anywhere.herokuapp.com/https://guarded-dawn-58914.herokuapp.com/api/v1/clients/", postObj)
       .then(function() {
 
 

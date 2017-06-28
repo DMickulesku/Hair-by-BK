@@ -5,6 +5,13 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: 'Josefin Slab', serif;
+  color: white;
+    text-shadow: 3px 3px 4px #78909c;
+  margin-left: 2em;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -13,7 +20,7 @@ main {
   display: flex;
   height: 15vh;
   width: 100vl;
-  background-color: grey;
+  background-color: black;
 }
 
 .nav-buttons-container {
@@ -22,7 +29,7 @@ main {
   height: 80vh;
   float: right;
   justify-content: center;
-  background-color: powderblue;
+  background-color: #455a64;
 }
 
 .nav-buttons-container-child {
@@ -35,10 +42,38 @@ main {
    -webkit-justify-content: center;
    justify-content: space-around;
 }
+a.btn.waves-effect.waves-green {
+  background-color: #78909c;
+  font-family: 'Josefin Slab', serif;
+}
+
+button.submitbtn {
+  background-color: #78909c;
+  font-family: 'Josefin Slab', serif;
+}
 
 .footer-container {
   display: flex;
   height: 5vh;
   width: 100vl;
-  background-color: grey;
+  background-color: black;
+  justify-content: flex-end;
+
+}
+
+h4 {
+  font-family: 'Josefin Slab', serif;
+  text-shadow: 1px 1px 1.5px #78909c;
+}
+
+h6 {
+  font-family: 'Josefin Slab', serif;
+  color: white;
+    text-shadow: 3px 3px 4px #78909c;
+  margin-right: 1.5em;
+}
+
+p li {
+  font-family: 'Antic', sans-serif;
+  font-size:
 }
