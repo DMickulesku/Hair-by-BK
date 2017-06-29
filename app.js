@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  $('.carousel').carousel();
+});
+
 emailjs.init("user_MOJnKnOPCqvRmQvDWuz8s");
 
 $(function() {
@@ -13,7 +17,6 @@ $(function() {
     var name = firstName + ' ' + lastName;
 
     var obj = {}
-    obj.to_name = name
     obj.from_name = name
     obj["phone_number"] = phoneNumber
     obj.email = email

@@ -16,18 +16,20 @@
     </div>
   </header>
   <main>
-    <section>
-      <!-- <img src="week-5-images/Brook_BW.jpg" id="background_img" alt="Brook Black and White"> -->
-    </section>
+    <section class="main-container">
+      <div class="img-container">
+        <img src="week-5-images/Brook_BW.jpg" id="background_img" alt="Brook Black and White">
+      </div>
+      <!-- </section>
 
-    <section>
+    <section> -->
       <div class="nav-buttons-container">
         <div class="nav-buttons-container-child">
-          <a href="#about_modal" class="btn waves-effect waves-green">about</a>
-          <a href="#portfolio_modal" class="btn waves-effect waves-green">portfolio</a>
-          <a href="#services_modal" class="btn waves-effect waves-green">services</a>
-          <a href="#booking_modal" class="btn waves-effect waves-green">booking</a>
-          <a href="#location_modal" class="btn waves-effect waves-green">location</a>
+          <a href="#about_modal" class="btn waves-effect waves-light">about</a>
+          <a href="#portfolio_modal" class="btn waves-effect waves-light">portfolio</a>
+          <a href="#services_modal" class="btn waves-effect waves-light">services</a>
+          <a href="#booking_modal" class="btn waves-effect waves-light">booking</a>
+          <a href="#location_modal" class="btn waves-effect waves-light">location</a>
         </div>
       </div>
     </section>
@@ -43,17 +45,28 @@
           new restaurants, cooking, reading, music and fashion. If you are looking for a great new stylist who is sure to leave you feeling beautiful, Brook is your stylist!</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">close</a>
       </div>
     </div>
 
     <div id="portfolio_modal" class="modal">
       <div class="modal-content">
         <h4>Portfolio</h4>
-        <p>Carousel Images Here</p>
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src="week-5-images/BrookWork1.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="week-5-images/BrookWork2.jpg"></a>
+          <a class="carousel-item" href="#three!"><img src="week-5-images/BrookWork3.jpg"></a>
+          <a class="carousel-item" href="#four!"><img src="week-5-images/BrookWork4.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="week-5-images/BrookWork5.jpg"></a>
+          <a class="carousel-item" href="#six!"><img src="week-5-images/BrookWork6.jpg"></a>
+          <a class="carousel-item" href="#seven!"><img src="week-5-images/BrookWork7.jpg"></a>
+          <a class="carousel-item" href="#eight!"><img src="week-5-images/BrookWork8.jpg"></a>
+          <a class="carousel-item" href="#nine!"><img src="week-5-images/BrookWork9.jpg"></a>
+          <a class="carousel-item" href="#ten!"><img src="week-5-images/BrookWork10.jpg"></a>
+        </div>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">close</a>
       </div>
     </div>
 
@@ -75,7 +88,7 @@
         </ul>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">close</a>
       </div>
     </div>
 
@@ -98,28 +111,29 @@
             <input id="email" type="email" name="email" value="" placeholder="Email"><br>
 
             <label for="serviceRequested">Service Requested</label><br>
-            <input id="serviceRequested" type="text" name="serviceRequested" value="" placeholder="Service Requested"><br>
+            <input id="serviceRequested" type="text" name="serviceRequested" value="" placeholder="Please input all Services Requested"><br>
 
-            <button class="submitbtn" type="button" name="button">Submit</button>
+            <button class="submitbtn modal-close" type="button" name="button">SUBMIT</button>
           </form>
         </section>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">close</a>
       </div>
     </div>
 
     <div id="location_modal" class="modal">
       <div class="modal-content">
-        <h4>You can find me here</h4>
-        <p>Brook Escobedo</p><br>
-        <p>Elsewhere Salon</p><br>
-        <p>1201 SANTA FE DRIVE, UNIT B</p><br>
-        <p>DENVER, CO 80204</p>
-        <p>elsewherehairdenver.com</p>
+        <h4>Find Me Here</h4>
+        <div class="location-modal">
+          <div class="location-box">
+            <p>Brook Escobedo<br> Elsewhere Salon<br> 1201 Santa Fe Drive, unit b<br> Denver, CO 80204<br> elsewherehairdenver.com</p>
+          </div>
+          <div class="map" id="map"></div>
+        </div>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">close</a>
       </div>
     </div>
   </main>

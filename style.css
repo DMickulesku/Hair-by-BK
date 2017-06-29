@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Josefin Slab', serif;
   color: white;
-    text-shadow: 3px 3px 4px #78909c;
+  text-shadow: 3px 3px 4px #78909c;
   margin-left: 2em;
 }
 
@@ -16,33 +16,63 @@ main {
   flex: 1 0 auto;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .header-container {
   display: flex;
-  height: 15vh;
+  height: 12vh;
   width: 100vl;
   background-color: black;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  height: 75vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+}
+
+img {
+  width: 80%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .nav-buttons-container {
   display: flex;
   width: 20vw;
-  height: 80vh;
+  height: 75vh;
   float: right;
   justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-right: 10vw;
   background-color: #455a64;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .nav-buttons-container-child {
   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column; /* works with row or column */
-   flex-direction: column;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: space-around;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: space-around;
 }
-a.btn.waves-effect.waves-green {
+
+a.btn.waves-effect.waves-light {
   background-color: #78909c;
   font-family: 'Josefin Slab', serif;
 }
@@ -52,16 +82,47 @@ button.submitbtn {
   font-family: 'Josefin Slab', serif;
 }
 
+label.active {
+  font-family: 'Antic', sans-serif;
+}
+
+input#firstName  {
+}
+
+.tabs-content.carousel .carousel-item {
+  height: 100%; }
+
+.location-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: row;
+
+}
+
 .footer-container {
   display: flex;
   height: 5vh;
   width: 100vl;
   background-color: black;
   justify-content: flex-end;
+}
 
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 150px;
+  background-color: grey;
 }
 
 h4 {
+  display: flex;
+  justify-content: center;
   font-family: 'Josefin Slab', serif;
   text-shadow: 1px 1px 1.5px #78909c;
 }
@@ -69,11 +130,18 @@ h4 {
 h6 {
   font-family: 'Josefin Slab', serif;
   color: white;
-    text-shadow: 3px 3px 4px #78909c;
+  text-shadow: 3px 3px 4px #78909c;
   margin-right: 1.5em;
 }
 
-p li {
+p {
   font-family: 'Antic', sans-serif;
-  font-size:
+}
+
+li {
+  font-family: 'Antic', sans-serif;
+}
+
+a {
+  font-family: 'Josefin Slab', serif;
 }
