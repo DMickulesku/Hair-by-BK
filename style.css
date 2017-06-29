@@ -23,7 +23,7 @@ main {
 
 .header-container {
   display: flex;
-  height: 12vh;
+  height: 10vh;
   width: 100vl;
   background-color: black;
 }
@@ -86,22 +86,22 @@ label.active {
   font-family: 'Antic', sans-serif;
 }
 
-input#firstName  {
+input#firstName.validate {
+  border-bottom: 1px solid blue;
+  box-shadow: 0 1px 0 0 red;
 }
 
 .tabs-content.carousel .carousel-item {
-  height: 100%; }
-
-.location-modal {
-  display: flex;
-  flex-direction: column;
+  height: 120%;
 }
 
 .location-box {
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-around;
+  margin-top: 20px;
 }
+
+
 
 .footer-container {
   display: flex;
@@ -111,20 +111,13 @@ input#firstName  {
   justify-content: flex-end;
 }
 
-.map {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 65%;
-  height: 150px;
-  background-color: grey;
-}
-
 h4 {
   display: flex;
   justify-content: center;
   font-family: 'Josefin Slab', serif;
   text-shadow: 1px 1px 1.5px #78909c;
+
+
 }
 
 h6 {
@@ -144,4 +137,14 @@ li {
 
 a {
   font-family: 'Josefin Slab', serif;
+}
+
+hr {
+    display: block;
+    color: #8cf07c;
+    height: 1.5px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
