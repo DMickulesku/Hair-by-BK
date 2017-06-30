@@ -1,9 +1,10 @@
-#Hair-by-BK
+Hair-by-BK
 ---
- (https://hair-by-bk.firebaseapp.com/)
- (https://github.com/DMickulesku/Hair-by-BK/blob/master/week-5-images/Screen%20Shot%202017-06-30%20at%209.50.11%20AM.png)
+ https://hair-by-bk.firebaseapp.com/
+
+ https://github.com/DMickulesku/Hair-by-BK/blob/master/week-5-images/Screen%20Shot%202017-06-30%20at%209.50.11%20AM.png
 ---
-##This is an app that will allow users to book appointments with Brook. It displays
+This is an app that will allow users to book appointments with Brook. It displays
 
 * about Brook as a stylist
 * a portfolio of her work
@@ -17,7 +18,7 @@ To create the page I used the following
 * JQuery
 * Materialize CSS framework
 ---
-
+Youtube- https://youtu.be/T-hTl4mYQsM
 ---
 MIT License
 
