@@ -23,7 +23,7 @@ main {
 
 .header-container {
   display: flex;
-  height: 10vh;
+  height: 11vh;
   width: 100vl;
   background-color: black;
 }
