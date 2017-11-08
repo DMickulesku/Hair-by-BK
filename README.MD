@@ -1,27 +1,29 @@
-Hair-by-BK
----
- https://hair-by-bk.firebaseapp.com/
+# Hair-by-BK
 
- https://github.com/DMickulesku/Hair-by-BK/blob/master/week-5-images/Screen%20Shot%202017-06-30%20at%209.50.11%20AM.png
----
+## About
 This is an app that will allow users to book appointments with Brook. It displays
-
 * about Brook as a stylist
 * a portfolio of her work
 * a service/ price list
 * the option to request an appointment with her
 * location information
----
-To create the page I used the following
+
+## App URL
+https://hair-by-bk.firebaseapp.com/
+ 
+## App View
+![App View](https://user-images.githubusercontent.com/20818309/32576503-621323e8-c494-11e7-8cb0-215cb44c066f.png)
+
+## Walkthrough
+Youtube- https://youtu.be/T-hTl4mYQsM
+
+## Technologies
 * HTML & CSS
-* javascript
+* JavaScript
 * JQuery
 * Materialize CSS framework
----
-Youtube- https://youtu.be/T-hTl4mYQsM
----
-MIT License
 
+## MIT License
 Copyright (c) [2017] [danmickulesku]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
